@@ -22,6 +22,8 @@ int main(){
                 cout << "28" << endl;
             }
         }
+    } else {
+        cout << "INVALID" << endl;
     }
 }
 
