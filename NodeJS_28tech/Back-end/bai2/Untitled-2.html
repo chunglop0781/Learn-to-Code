@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 2</title>
+  </head>
+  <body>
+    <!-- 01. Thẻ video -->
+    <!--
+    Thuộc tính của thẻ video:
+      width: Chiều rộng của video
+      height: Chiều cao của video
+      controls: Hiển thị thanh điều khiển (bật, tạm dừng, âm lượng)
+      loop: Lập lại video
+      autoplay: Tự động phát video
+      muted: Tắt tiếng
+    Thuộc tính của thẻ source:
+      src: Đường dẫn file video
+    Lưu ý:
+      Trên trình duyệt Chrome không cho phép tự động phát video.
+      Nếu muốn tự động phát được video thì phải thêm thuộc tỉnh muted.
+    -->
+    <video width="500" controls loop autoplay muted>
+      <source src="https://raw.githubusercontent.com/chunglop0781/Learn-to-Code/refs/heads/main/NodeJS_28tech/Back-end/bai2/test.mp4" type="video/mp4" />
+    </video>
+    <!-- 02. Thẻ audio -->
+    <audio controls loop>
+      <source src="https://raw.githubusercontent.com/chunglop0781/Learn-to-Code/refs/heads/main/NodeJS_28tech/Back-end/bai2/test_audio.mp3" type="audio/mpeg" />
+    </audio>
+    <!-- 03. Thẻ table -->
+    <!-- Thêm CSS cho dễ nhìn -->
+    <style>
+      table, th, td {
+        border: 1px solid #ddd;
+      }
+      th, td {
+        padding: 10px;
+      }
+    </style>
+    <!--
+    Ý nghĩa các thẻ:
+        <table></table>: Xác định một bảng
+        <thead></thead>: Phần đầu của bảng
+        <tbody></tbody>: Phần thân của bảng
+        <tr></tr> (table row): Xác định một hàng của bảng
+        <th></th> (table header): Xac dinh tiêu đề của bằng
+        <td></td> (table data): Xác định dữ liệu ô của bảng
+    Thuộc tính:
+        colspan: tạo ô mở rộng trên nhiều cột
+        rowspan: tạo ô kéo dài trên nhiều hàng
+    -->
+    <table>
+      <thread>
+        <tr>
+          <th>STT</th>
+          <th>Họ và tên</th>
+          <th>Số điện thoại</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Nguyễn Văn A</td>
+          <td>0123456789</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Trần Thị B</td>
+          <td>0987654321</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+
+
+</html>
