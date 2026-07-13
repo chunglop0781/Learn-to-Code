@@ -1,1 +1,7 @@
-https://vk.com/wall606949250_19
+code cmd chuyển sang file pdf:
+cd /d D:\ && for %i in (*20260713T185211Z*.zip) do ren "%i" "%~ni.pdf"
+
+code cmd chuyển file zip:
+cd /d D:\ && for %i in (*20260713T185211Z*.pdf) do ren "%i" "%~ni.zip"
+
+https://vk.com/doc606949250_702084124?hash=7kQxYnSLOG1YZaA1GxLtGzOq9aHz6pyA2o1OH9musuw&dl=atvW58nNLiXR5QZaU5AjXyehZ6Dpp33tVEcGCjfAX3c&api=1&no_preview=1
