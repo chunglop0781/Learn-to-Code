@@ -1,1 +1,50 @@
-
+Buổi 1	Các mối quan hệ 1:1,1:n.n:n và lưu đồ ERD
+Buổi 2	Sửa lưu đồ và thiết kế DB trong Mysql
+Buổi 3	Chữa bài tập, Tạo project non-jwt
+Buổi 4	Web Service và các cách để xây dựng 1 Web Service,cấu hình Spring Boot và 1 số khái niệm trong Maven Project
+Buổi 5	Controller
+Buổi 6	13 Best Practices(p1)
+Buổi 7	13 Best Practices(p2)
+Buổi 8	@Controlleradvice
+Buổi 9	Xây dụng mô hình 3-layer, MVC
+Buổi 10	Xây dụng mô hình 3-layer, MVC(tt), Git
+Buổi 11	Git flow, Giao Project 2
+Buổi 12	Review quà sửa project 2
+Buổi 13	sửa project 2,modelmapper
+Buổi 14	Builder pattern, MapUtil, Java reflection
+Buổi 15	Học về JPA(P1), Phân tách môi trường với Spring Profiles
+Buổi 16	@Table, @OnetoMany, @ManyToOne
+Buổi 17	@ManyToMany, FetchType, persist,remove,merger,find trong JPA
+Buổi 18	Cú pháp và cách sử dụng Spring Data JPA,Xây dựng Custom trong Spring Data JPA
+Buổi 19	Cú pháp và cách sử dụng Spring Data JPA,Xây dựng Custom trong Spring Data JPA(P2)
+Buổi 20	Nghiệm thu project-2
+Buổi 21	Học về Bootstrap, Jquery(p1)
+Buổi 22	Học về Bootstrap, Jquery, Ajax(p2)
+Buổi 23	Nhúng FE vào BE(P1),@modelattribute, ModelAndView,...
+Buổi 24	Nhúng FE vào BE(P2)<Form:Form>,<Form:input>..
+Buổi 25	Xây dựng chức năng tìm kiếm, thêm và sửa sản phẩm 
+Buổi 26	Xây dựng hoàn chỉnh chức năng tìm kiếm, thêm sửa và xóa sản phẩm 
+Buổi 27	Sửa project 3(ver1)
+Buổi 28	Sửa project 3(ver2), Cascade
+Buổi 29	spring security(p1)
+Buổi 30	spring security(p2) + JWT
+Buổi 31	Học về Java Reflection - Java Generic - Java Annotation(P1)
+Buổi 32	Học về Java Reflection - Java Generic - Java Annotation(P2)
+Buổi 33	Làm giao diện project 4(p1)
+Buổi 34	Apply các chức năng của project 4, Giao project
+Buổi 35	sửa project project 4
+Buổi 36	Hướng dẫn viết CV
+Buổi 37	Ôn tập spring security + jwt
+Buổi 38	
+Buổi 39	
+Buổi 40	
+Buổi 41	
+Buổi 42	
+Buổi 43	
+Buổi 44	
+Buổi 45	
+Buổi 46	
+Buổi 47	
+Buổi 48	
+Buổi 49	
+Buổi 50	
