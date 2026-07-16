@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Phần 2: Form</title>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank" autocomplete="on" method="post">
+            <div>
+                <label for="fullName">Họ tên:</label>
+                <input type="text" name="hoTen" id="fullName" placeholder="Ví dụ: Lê Văn A"/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Ví dụ: 123@gmail.com" />
+            </div>
+            <div>
+                <label for="phone">Số điện thoại:</label>
+                <input name="soDienThoai" id="phone" placeholder="Ví dụ: 0123456789" />
+            </div>
+            <div>
+                <label for="pass">Mật khẩu:</label>
+                <input type="password" name="matkhau" id="pass" />
+            </div>
+            <div>
+                <label for="age">Tuổi:</label>
+                <input type="number" name="tuoi" id="age" min="1" max="100" />
+            </div>
+            <div>
+                <label for="birthday">Sinh nhật:</label>
+                <input type="date" name="sinhnhat" id="birthday" />
+            </div>
+            <div>
+                <label for="time">Thời gian:</label>
+                <input type="time" name="thoigian" id="time" />
+            </div>
+            <div>
+                <label for="timeDetail">Thời gian chi tiết:</label>
+                <input type="datetime-local" name="thoiGianChiTiet" id="timeDetail" />
+            </div>
+            <div>
+                <label for="gioiTinh">Giới tính: </label>
+                <select name="gioiTinh" id="gioiTinh">
+                    <option value="nam">Nam</option>
+                    <option value="nu">Nữ</option>
+                    <option value="khac">Khác</option>
+                </select>
+            </div>
+            <div>
+                <p>Những lập trình bạn yêu thích (nhiều lựa chọn):</p>
+                <div>
+                    <input type="checkbox" name="ngonNguYeuThich" value="C" id="c" />
+                    <label for="c">Ngôn ngữ C</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="ngonNguYeuThich" value="C++" id="cpp" />
+                    <label for="cpp">Ngôn ngữ C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="ngonNguYeuThich" value="Javascript" id="js" />
+                    <label for="js">Ngôn ngữ Javascript</label>
+                </div>
+            </div>
+            <div>
+                <p>Lập trình bạn yêu thích (1 lựa chọn):</p>
+                <div>
+                    <input type="radio" name="ngonNguYeuThich" value="C" id="c" />
+                    <label for="c">Ngôn ngữ C</label>
+                </div>
+                <div>
+                    <input type="radio" name="ngonNguYeuThich" value="C++" id="cpp" />
+                    <label for="cpp">Ngôn ngữ C++</label>
+                </div>
+                <div>
+                    <input type="radio" name="ngonNguYeuThich" value="Javascript" id="js" />
+                    <label for="js">Ngôn ngữ Javascript</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="note">Ghi chú</label>
+                </div>
+                <textarea name="ghiChu" id="note" rows="5"></textarea>
+                <!-- rows: chỉ định số dòng hiển thị.
+                cols: chỉ định độ rộng hiển thị. -->
+            </div>
+            <div>
+                <button>Gửi</button>
+            </div>
+        </form>
+    </body>
+</html>
