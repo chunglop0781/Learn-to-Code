@@ -51,12 +51,16 @@ public class baividu1{
         Scanner sc = new Scanner (System.in);
         int a = sc.nextInt(), b = sc.nextInt();
         int dem = 0;
+        int count1 = 0, count2 = 0;
         for(int i = a; i <= b; i++){
             if(nguyenTo(i) && chuSoNguyenTo(i)){
                 ++dem;
             }
+            if(nguyenTo(i)) count1++;
+            if(chuSoNguyenTo(i)) count2++;
+
         }
-        System.out.println("So nguyen to: " + dem);
+        System.out.println(dem + " voi " + count1 + " " + count2);
         int n = sc.nextInt();
         System.out.println("So uoc: " + demUoc(n));
         System.out.println("Tong cac uoc: " + tongUoc(n));
