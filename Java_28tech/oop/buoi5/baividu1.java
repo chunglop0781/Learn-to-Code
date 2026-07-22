@@ -36,8 +36,27 @@ public class baividu1{
         }
         return true;
     }
+    public static boolean chuSoNguyenTo(int n) {
+        while(n != 0){
+            int r = n % 10;
+            if(r != 2 && r != 3 && r != 5 && r != 7){
+                return false;
+            }
+            n /= 10;
+        }
+        return true;
+    }
+
     public static void main(String[] args){
         Scanner sc = new Scanner (System.in);
+        int a = sc.nextInt(), b = sc.nextInt();
+        int dem = 0;
+        for(int i = a; i <= b; i++){
+            if(nguyenTo(i) && chuSoNguyenTo(i)){
+                ++dem;
+            }
+        }
+        System.out.println("So nguyen to: " + dem);
         int n = sc.nextInt();
         System.out.println("So uoc: " + demUoc(n));
         System.out.println("Tong cac uoc: " + tongUoc(n));
