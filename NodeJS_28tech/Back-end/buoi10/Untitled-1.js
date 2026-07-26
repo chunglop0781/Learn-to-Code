@@ -1,11 +1,34 @@
 
 
-function sum(a, b) {
+function sum(a,b) {
     return a + b;
 }
 var result = sum(10, 20);
 console.log(result);
 
+
+var sum = function(a,b,c,d) {
+    let total = 0;
+    for (const item of arguments) {
+        total += item;
+    }
+    return total;
+};
+
+var result = sum(10, 20, 30, 40, 50, 60, 70, 80);
+console.log(result); 
+
+
+var sum = (...arguments) => {
+    let total = 0;
+    for (const item of arguments) {
+        total += item;
+    }
+    return total;
+};
+
+var result = sum(10, 20, 30, 40, 50, 60, 70, 80);
+console.log(result);
 
 
 // var myString = "Xin chào! Tôi tên Nam. Tôi năm nay 18 tuổi.";
