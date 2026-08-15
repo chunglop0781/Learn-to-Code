@@ -52,7 +52,7 @@ int main(){
     cout << "Danh sach sinh vien bi truot: " << endl;
     for(int i = 0; i < n; i++){
         if(sv[i].diem < diemChuan){
-            cout << sv[i].hoTen << " - " << "Diem: " << sv[i].diem << endl;
+            cout << sv[i].hoTen << " - " << "Diem: " << fixed << setprecision(2) << sv[i].diem << endl;
         }
     }
     return 0;
