@@ -1,4 +1,4 @@
-#include "SinhVien.h"
+ #include "SinhVien.h"
 
 
 void nhap(SinhVien sv[], int &n) {
@@ -16,6 +16,14 @@ void nhap(SinhVien sv[], int &n) {
         file.getline(sv[i].truong, 100);
     }
     file.close();
+}
+
+void xuat(SinhVien sv[], int n) {
+    cout << "Danh sach sinh vien: " << endl;
+    for (int i = 0; i < n; i++) {
+        cout << "MSV: " << sv[i].MSV << " - " << "Ho ten: " << sv[i].hoTen << " - " << "Diem: " << fixed << setprecision(2) << sv[i].diem << " - " << "Truong: " << sv[i].truong << endl;
+    }
+    cout << endl;
 }
 
 
@@ -45,6 +53,7 @@ int main(){
     struct SinhVien sv[100];
     int n;
     nhap(sv, n);
+    xuat(sv, n);
     thongKeSinhVien(sv, n);
     double diemChuan;
     cout << "Nhap diem chuan: ";
