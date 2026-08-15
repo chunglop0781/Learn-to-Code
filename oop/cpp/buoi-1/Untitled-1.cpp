@@ -45,16 +45,23 @@ void thongKeSinhVien(struct SinhVien sv[], int n){
     cout << "So luong sinh vien o Truong A: " << soluongTruongA << endl;
     cout << "So luong sinh vien o Truong B: " << soluongTruongB << endl;
     cout << "So luong sinh vien o Truong C: " << soluongTruongC << endl;
+    cout << endl;
     int maxTruong = max(soluongTruongA, max(soluongTruongB, soluongTruongC));
-    cout << "Truong co nhieu sinh vien nhat: " << maxTruong << endl;
+    cout << "Truong co nhieu sinh vien nhat: " << maxTruong << " - Truong: ";
+    if(maxTruong == soluongTruongA){
+        cout << "TruongA";
+    }
+    else if(maxTruong == soluongTruongB){
+        cout << "TruongB";
+    }
+    else{
+        cout << "TruongC";
+    }
+    cout << endl;
+    cout << endl;
 }
 
-int main(){
-    struct SinhVien sv[100];
-    int n;
-    nhap(sv, n);
-    xuat(sv, n);
-    thongKeSinhVien(sv, n);
+void danhSachSinhVienBiTruot(struct SinhVien sv[], int n){
     double diemChuan;
     cout << "Nhap diem chuan: ";
     cin >> diemChuan;
@@ -64,5 +71,15 @@ int main(){
             cout << sv[i].hoTen << " - " << "Diem: " << fixed << setprecision(2) << sv[i].diem << endl;
         }
     }
+    cout << endl;
+}
+
+int main(){
+    struct SinhVien sv[100];
+    int n;
+    nhap(sv, n);
+    xuat(sv, n);
+    thongKeSinhVien(sv, n);
+    danhSachSinhVienBiTruot(sv, n);
     return 0;
 }
